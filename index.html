@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Nhuy</title>
+
+<style>
+:root {
+    --bg-url: url(' LINK ẢNH ');
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e5e7eb;
+    background:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        var(--bg-url);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+header {
+    background: transparent;
+    padding: 60px 20px 40px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+    text-shadow: 0 0 15px rgba(0,0,0,.7);
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: .9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto 40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+}
+
+h2 {
+    border-left: 5px solid #3b82f6;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.product {
+    background: rgba(2,6,23,.85);
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product a {
+    text-decoration: none;
+    background: #3b82f6;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-weight: bold;
+}
+
+.product a:hover {
+    transform: scale(1.05);
+}
+
+.payment p {
+    background: rgba(2,6,23,.85);
+    padding: 12px 15px;
+    border-radius: 10px;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    padding: 10px 18px;
+    border-radius: 999px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:first-child { background: #16a34a; }
+.contact a:last-child { background: #2563eb; }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(2,6,23,.9);
+    color: #9ca3af;
+    position: relative;
+    z-index: 5;
+}
+
+.music-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #3b82f6;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.sakura {
+    position: fixed;
+    top: -20px;
+    width: 14px;
+    height: 14px;
+    background: radial-gradient(circle at 30% 30%, #ffd1dc, #ff69b4);
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    pointer-events: none;
+    animation: fall linear infinite;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+@keyframes fall {
+    0% { transform: translateY(-20px) translateX(0) rotate(0deg); }
+    100% { transform: translateY(110vh) translateX(100px) rotate(360deg); }
+}
+
+.touch-flower {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 30% 30%, #ffd1dc, #ff69b4);
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    animation: pop 0.6s forwards;
+    pointer-events: none;
+    z-index: 9998;
+}
+
+@keyframes pop {
+    0% { transform: scale(0) rotate(0deg); opacity: 1; }
+    100% { transform: scale(1.6) rotate(180deg); opacity: 0; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1> TÊN SHOP </h1>
+    <p> VIẾT GÌ CG ĐC VÍ DỤ : AN TOÀN - UY TÍN </p>
+</header>
+
+<div class="container">
+
+<h2>GHI GÌ CG ĐC VÍ DỤ BẢNG GIÁ SẢN PHẨM </h2>
+
+<div class="product">
+    <span>ĐỒ CẦN BÁN KÈM GIÁ</span>
+    <a href="#">Mua Ngay</a>
+</div>
+
+<div class="product">
+    <span>ĐỒ CẦN BÁN KÈM GIÁ</span>
+    <a href="#">Mua Ngay</a>
+</div>
+
+<div class="product">
+    <span>ĐỒ CẦN BÁN KÈM GIÁ</span>
+    <a href="#">Mua Ngay</a>
+</div>
+
+<div class="product">
+    <span>ĐỒ CẦN BÁN KÈM GIÁ</span>
+    <a href="#">Mua Ngay</a>
+</div>
+
+
+<h2> TÊN SHOP </h2>
+<div class="Shop">
+    <p> GHI GÌ CG ĐC VÍ DỤ STK1 </p>
+    <p> GHI GÌ CG ĐC VÍ DỤ STK2 HOẶC ID TIKTOK </p>
+</div>
+
+<h2> LIÊN HỆ VÍ DỤ : LIÊN HỆ NGUYEN NHAT HUY Ở ĐÂY </h2>
+<div class="contact">
+    <a href="https://zalo.me/SDT CỦA M">Zalo</a>
+    <a href=" LINK FB CỦA M ">Facebook</a>
+</div>
+
+</div>
+
+<footer>
+© TÊN DEV 
+</footer>
+
+<audio id="bgMusic" loop>
+    <source src=" FILE NHẠC MP3 " type="audio/mpeg">
+</audio>
+
+<div class="music-btn" id="musicBtn">🎵</div>
+
+<script>
+const music = document.getElementById('bgMusic');
+const btn = document.getElementById('musicBtn');
+let playing = false;
+
+btn.onclick = () => {
+    if (playing) {
+        music.pause();
+        btn.textContent = '🔇';
+    } else {
+        music.play();
+        btn.textContent = '🎵';
+    }
+    playing = !playing;
+};
+
+function createSakura() {
+    const s = document.createElement('div');
+    s.className = 'sakura';
+    s.style.left = Math.random() * window.innerWidth + 'px';
+    s.style.animationDuration = (6 + Math.random() * 4) + 's';
+    document.body.appendChild(s);
+    setTimeout(() => s.remove(), 12000);
+}
+
+setInterval(createSakura, 700);
+
+document.addEventListener('click', e => {
+    const f = document.createElement('div');
+    f.className = 'touch-flower';
+    f.style.left = (e.clientX - 10) + 'px';
+    f.style.top = (e.clientY - 10) + 'px';
+    document.body.appendChild(f);
+    setTimeout(() => f.remove(), 600);
+});
+</script>
+
+</body>
+</html>
